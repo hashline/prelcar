@@ -2320,3 +2320,54 @@ a.logo.me-auto.me-lg-0 {
 }
 
 /* Product Image slider - Start */
+
+/* Features - Start */
+
+.portfolio-description .features-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.portfolio-description .features-list {
+  margin: 0 auto;
+  width: 100%;
+  display: ruby;
+}
+
+.portfolio-description .feature-item {
+  text-align: center;
+  padding: 0.5rem;
+  width: 20%;
+}
+
+.portfolio-description .item-title {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.portfolio-description .item-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.portfolio-description .item-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+/*
+**  MD BREAKPOINT
+*/
+@media only screen and (min-width: 960px) {
+  .portfolio-description .features-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+  }
+}
+
+/* Features - End */
