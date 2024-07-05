@@ -2351,6 +2351,7 @@ a.logo.me-auto.me-lg-0 {
   text-align: center;
   padding: 0.5rem;
   width: 20%;
+  border-image: linear-gradient(transparent 10%, grey 10% 90%, transparent 90%) 0 1 0 0 / 3px;
 }
 
 .portfolio-description .item-title {
@@ -2379,6 +2380,16 @@ a.logo.me-auto.me-lg-0 {
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1200px;
+  }
+
+  .portfolio-description .features-list-new {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 70%;
+    padding-left: 0;
+    margin-left: 0;
   }
 }
 
