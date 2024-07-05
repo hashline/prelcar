@@ -920,12 +920,24 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-info ul {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+}
+
+.portfolio-info ul li {
+  background-color: #A8CE47;
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+}
+
+.portfolio-info H5 {
+  font-size: 12px;
   margin-top: 10px;
-  font-size: 0.675rem;
 }
 
 .portfolio-details .portfolio-description {
