@@ -2347,11 +2347,25 @@ a.logo.me-auto.me-lg-0 {
   display: ruby;
 }
 
+.portfolio-description .features-list-new {
+  margin: 0 auto;
+  width: 100%;
+  display: ruby;
+}
+
+.features-list-new1 .item-title {
+  font-size: 0.7rem !important;
+}
+
+.features-list-new1 .feature-item {
+  width: 15% !important;
+}
+
 .portfolio-description .feature-item {
   text-align: center;
   padding: 0.5rem;
   width: 20%;
-  border-image: linear-gradient(transparent 10%, grey 10% 90%, transparent 90%) 0 1 0 0 / 3px;
+  border-image: linear-gradient(transparent 10%, black 10% 90%, transparent 90%) 0 1 0 0 / 3px;
 }
 
 .portfolio-description .item-title {
@@ -2391,6 +2405,72 @@ a.logo.me-auto.me-lg-0 {
     padding-left: 0;
     margin-left: 0;
   }
+
+  .portfolio-description .features-list-new1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 40%;
+    padding-left: 0;
+    margin-left: 0;
+  }
 }
 
 /* Features - End */
+
+/* Collapsible Content - Start */
+
+.collapsible-parent {
+  border: 1px solid silver;
+  padding: 1em;
+  margin: 1em 0;
+  display: grid;
+  grid-template-rows: min-content 0fr;
+  row-gap: 0;
+  transition-property: grid-template-rows, row-gap;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+.collapsible-parent > label {
+  cursor: pointer;
+}
+.collapsible-parent > label::before {
+  content: "";
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.25em;
+  border-style: solid;
+  border-width: 0 0.1em 0.1em 0;
+  transform: translateY(-0.15em) rotate(-45deg);
+  transition: transform 0.3s ease;
+}
+.collapsible-parent > label input[type=checkbox] {
+  display: none;
+}
+.collapsible-parent > *:nth-child(2) {
+  overflow: hidden;
+}
+.collapsible-parent:has(> label input:checked) {
+  grid-template-rows: min-content 1fr;
+  row-gap: 1em;
+}
+.collapsible-parent:has(> label input:checked) label::before {
+  transform: translateY(-0.15em) rotate(45deg);
+}
+
+.registration {
+  display: inline-grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 0.5em;
+}
+.registration input[type=submit] {
+  grid-column-start: 2;
+}
+.registration label::after {
+  content: ":";
+  margin-left: 0.2em;
+}
+
+/* Collapsible Content - Start */
