@@ -1,28 +1,33 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
-
-require("class.phpmailer.php");
-
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    require 'PHPMailer.php';
+    require 'SMTP.php';
+    require 'Exception.php';
 
 $mail = new PHPMailer;
 
-$mail->IsSMTP();                                      // Set mailer to use SMTP
-//$mail->Host = "mail.elgo.co.in";                 // Specify main and backup server
-$mail->Host = "103.93.16.21";                 // If the above does not work.
-$mail->Port = 25;                                    // Set the SMTP port
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = "admin@elgo.co.in";                // SMTP username
-$mail->Password = "icom@oss_2023";                  // SMTP password
-$mail->SMTPSecure = "ssl";                            // Enable encryption, 'ssl' also accepted
+$mail->IsSMTP();                                      
 
-$mail->From = 'admin@elgo.co.in';
+$mail->Host = 'smtp.gmail.com';
+$mail->SMTPAuth = true;
+$mail->SMTPDebug = 2;
+$mail->Username = 'hashlineinfo@gmail.com'; 
+$mail->Password = 'myuvoiagfcamzskz'; 
+$mail->SMTPSecure = 'tls';
+$mail->Port = 587;
+
+$mail->From = 'hashlineinfo@gmail.com';
 $mail->FromName = $_POST["name"];
-$mail->AddAddress('rajesh1976@hotmail.com');  // Add a recipient
+$mail->AddAddress('hashlineinfo@gmail.com');  
 
-$mail->IsHTML(true);                                  // Set email format to HTML
+$mail->IsHTML(true);                          
 
 $mail->Subject = "Contact Enquery - ".$_POST["subject"];
-//$mail->Body    = $_POST["message"];
+
 $mail->Body    ='<html>
                     <head>
                         <title>Contact Enquery - '.$_POST["name"].'</title>
@@ -58,4 +63,8 @@ if(!$mail->Send()) {
 }
 
 echo "<p class='success'>Contact Mail Sent.</p>";
-exit(0);?>
+
+} else {
+    echo "Invalid request.";
+}
+?>

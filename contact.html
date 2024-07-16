@@ -354,7 +354,7 @@
       valid = validateContact();
       if (valid) {
         jQuery.ajax({
-          url: "contact_mail.php",
+          url: "/contact_mail.php",
           data: 'name=' + $("#name").val() + '&email=' + $("#email").val() + '&subject=' + $("#subject").val() + '&message=' + $(message).val(),
           type: "POST",
           success: function (data) {
