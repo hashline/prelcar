@@ -27,7 +27,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -49,8 +49,12 @@
 
       <!--<h1 class="logo me-auto"><a href="index.html"><span>el</span>go</a></h1>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/prabha-logo.jpg" alt=""
-          class="img-fluid"></a>
+      <a href="index.html" class="logo me-auto me-lg-0">
+        <img src="assets/img/prelcarlogo.png" alt="" class="img-fluid" />
+        <img id="aira_logo" src="images/arai-cert-logo.png" style="width: 100px; max-height: 100px;">
+      </a>
+      <img id="aira_logo" src="images/arai-cert-logo.png"
+        style="width: 100px; height: 100px; position: absolute; right: 15px; top: 15px;">
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -351,496 +355,354 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
-      <div class="container">
 
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-openloader">Open Loader</li>
-              <li data-filter=".filter-kitchencart">Kitchen Cart</li>
-              <li data-filter=".filter-manualhyd">Manual Hydraulic Tipper</li>
-              <li data-filter=".filter-vegcart">Veg Cart</li>
-              <li data-filter=".filter-closedloader">Closed Loader</li>
-              <li data-filter=".filter-watercan">Water Can E-Loader</li>
-            </ul>
-          </div>
-        </div>
+      <div class="row portfolio-container">
 
-        <div class="row portfolio-container" data-aos="fade-up">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapsible-open-loader" aria-expanded="true" aria-controls="collapsible-open-loader">
-                  Collapsible Group Item #1
-                </button>
-              </h5>
+        <div class="container gallery-container">
+
+          <div class="tz-gallery">
+
+            <div class="accordion" id="accordionOpenLoader">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOpenLoader" aria-expanded="true" aria-controls="collapseOpenLoader">                    
+                    <img src="images/OpenLoader/IMP01531.jpeg" alt="Bridge" style="width: 100px; height: 100px;">
+                    <p style="margin-left: 15px;">Open Loader</p>
+                  </button>
+                </h2>
+                <div id="collapseOpenLoader" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionOpenLoader">
+                  <div class="accordion-body">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/OpenLoader/IMP01531.jpeg">
+                          <img src="images/OpenLoader/IMP01531.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/OpenLoader/IMP01534.jpeg">
+                          <img src="images/OpenLoader/IMP01534.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/OpenLoader/IMP01538.jpeg">
+                          <img src="images/OpenLoader/IMP01538.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/OpenLoader/IMP01540.jpeg">
+                          <img src="images/OpenLoader/IMP01540.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/OpenLoader/IMP01544.jpeg">
+                          <img src="images/OpenLoader/IMP01544.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="collapsible-content" id="collapsible-open-loader">
-              <!-- Open loader portfolio start -->
-              <div class="col-lg-4 col-md-6 portfolio-item filter-openloader">
-                <img src="images/OpenLoader/IMP01531.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-                <div class="portfolio-info">
-                  <h4>Open Loader</h4>
 
-                  <a href="images/OpenLoader/IMP01531.png" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-                  <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+            <div class="accordion" id="accordionKitchenCart">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseKitchenCart" aria-expanded="true" aria-controls="collapseKitchenCart">
+                    Kitchen Cart
+                  </button>
+                </h2>
+                <div id="collapseKitchenCart" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionKitchenCart">
+                  <div class="accordion-body">
+
+                    <div class="row">
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/KitchenCart/IMP01640.jpeg">
+                          <img src="images/KitchenCart/IMP01640.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/KitchenCart/IMP01642.jpeg">
+                          <img src="images/KitchenCart/IMP01642.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/KitchenCart/IMP01645.jpeg">
+                          <img src="images/KitchenCart/IMP01645.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/KitchenCart/IMP01664.jpeg">
+                          <img src="images/KitchenCart/IMP01664.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/KitchenCart/IMP01672.jpeg">
+                          <img src="images/KitchenCart/IMP01672.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/KitchenCart/IMP01674.jpeg">
+                          <img src="images/KitchenCart/IMP01674.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-openloader">
-                <img src="images/OpenLoader/IMP01534.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-                <div class="portfolio-info">
-                  <h4>Open Loader</h4>
+            </div>
 
-                  <a href="images/OpenLoader/IMP01534.png" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-                  <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+            <div class="accordion" id="accordionManualHyd">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseManualHyd" aria-expanded="true" aria-controls="collapseManualHyd">
+                    Manual Hydraulic Tipper
+                  </button>
+                </h2>
+                <div id="collapseManualHyd" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionManualHyd">
+                  <div class="accordion-body">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ManualHyd/IMP01581.jpeg">
+                          <img src="images/ManualHyd/IMP01581.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ManualHyd/IMP01585.jpeg">
+                          <img src="images/ManualHyd/IMP01585.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ManualHyd/IMP01587.jpeg">
+                          <img src="images/ManualHyd/IMP01587.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ManualHyd/IMP01590.jpeg">
+                          <img src="images/ManualHyd/IMP01590.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ManualHyd/IMP01600.jpeg">
+                          <img src="images/ManualHyd/IMP01600.jpeg" alt="Bridge" style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-openloader">
-                <img src="images/OpenLoader/IMP01537.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-                <div class="portfolio-info">
-                  <h4>Open Loader</h4>
+            </div>
 
-                  <a href="images/OpenLoader/IMP01537.png" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-                  <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+            <div class="accordion" id="accordionVegetableCart">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseVegetableCart" aria-expanded="true" aria-controls="collapseVegetableCart">
+                    Vegetable Cart
+                  </button>
+                </h2>
+                <div id="collapseVegetableCart" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionVegetableCart">
+                  <div class="accordion-body">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/VegetableCart/IMP01601.jpeg">
+                          <img src="images/VegetableCart/IMP01601.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/VegetableCart/IMP01608.jpeg">
+                          <img src="images/VegetableCart/IMP01608.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/VegetableCart/IMP01611.jpeg">
+                          <img src="images/VegetableCart/IMP01611.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/VegetableCart/IMP01614.jpeg">
+                          <img src="images/VegetableCart/IMP01614.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/VegetableCart/IMP01619.jpeg">
+                          <img src="images/VegetableCart/IMP01619.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-openloader">
-                <img src="images/OpenLoader/IMP01538.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-                <div class="portfolio-info">
-                  <h4>Open Loader</h4>
+            </div>
 
-                  <a href="images/OpenLoader/IMP01538.png" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-                  <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+            <div class="accordion" id="accordionClosedLoader">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseClosedLoader" aria-expanded="true" aria-controls="collapseClosedLoader">
+                    Closed Loader
+                  </button>
+                </h2>
+                <div id="collapseClosedLoader" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionClosedLoader">
+                  <div class="accordion-body">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ClosedLoader/IMP01552.jpeg">
+                          <img src="images/ClosedLoader/IMP01552.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ClosedLoader/IMP01558.jpeg">
+                          <img src="images/ClosedLoader/IMP01558.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ClosedLoader/IMP01564.jpeg">
+                          <img src="images/ClosedLoader/IMP01564.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ClosedLoader/IMP01566.jpeg">
+                          <img src="images/ClosedLoader/IMP01566.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ClosedLoader/IMP01567.jpeg">
+                          <img src="images/ClosedLoader/IMP01567.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ClosedLoader/IMP01569.jpeg">
+                          <img src="images/ClosedLoader/IMP01569.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/ClosedLoader/IMP01571.jpeg">
+                          <img src="images/ClosedLoader/IMP01571.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-openloader">
-                <img src="images/OpenLoader/IMP01540.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-                <div class="portfolio-info">
-                  <h4>Open Loader</h4>
+            </div>
 
-                  <a href="images/OpenLoader/IMP01540.png" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-                  <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
+            <div class="accordion" id="accordionWaterCanLoader">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWaterCanLoader" aria-expanded="true"
+                    aria-controls="collapseWaterCanLoader">
+                    Water Can Loader
+                  </button>
+                </h2>
+                <div id="collapseWaterCanLoader" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionWaterCanLoader">
+                  <div class="accordion-body">
+
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/WaterCanLoader/IMP01549.jpeg">
+                          <img src="images/WaterCanLoader/IMP01549.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/WaterCanLoader/IMP01622.jpeg">
+                          <img src="images/WaterCanLoader/IMP01622.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/WaterCanLoader/IMP01624.jpeg">
+                          <img src="images/WaterCanLoader/IMP01624.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/WaterCanLoader/IMP01627.jpeg">
+                          <img src="images/WaterCanLoader/IMP01627.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a class="lightbox" href="images/WaterCanLoader/IMP01635.jpeg">
+                          <img src="images/WaterCanLoader/IMP01635.jpeg" alt="Bridge"
+                            style="width: 300px; height: 300px;">
+                        </a>
+                      </div>
+
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item filter-openloader">
-                <img src="images/OpenLoader/IMP01547.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-                <div class="portfolio-info">
-                  <h4>Open Loader</h4>
-
-                  <a href="images/OpenLoader/IMP01547.png" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-                  <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-                </div>
-              </div>
-              <!-- Open loader portfolio end -->
             </div>
           </div>
-
-          <!-- Kitchen loader portfolio start -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-kitchencart">
-            <img src="images/KitchenCart/IMP01640.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Kitchen Cart</h4>
-
-              <a href="images/KitchenCart/IMP01640.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-kitchencart">
-            <img src="images/KitchenCart/IMP01642.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Kitchen Cart</h4>
-
-              <a href="images/KitchenCart/IMP01642.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-kitchencart">
-            <img src="images/KitchenCart/IMP01645.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Kitchen Cart</h4>
-
-              <a href="images/KitchenCart/IMP01645.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-kitchencart">
-            <img src="images/KitchenCart/IMP01660.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Kitchen Cart</h4>
-
-              <a href="images/KitchenCart/IMP01660.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-kitchencart">
-            <img src="images/KitchenCart/IMP01664.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Kitchen Cart</h4>
-
-              <a href="images/KitchenCart/IMP01664.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-kitchencart">
-            <img src="images/KitchenCart/IMP01672.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Kitchen Cart</h4>
-
-              <a href="images/KitchenCart/IMP01672.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-kitchencart">
-            <img src="images/KitchenCart/IMP01674.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Kitchen Cart</h4>
-
-              <a href="images/KitchenCart/IMP01674.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-          <!-- Kitchen loader portfolio end -->
-
-          <!-- Manual Hydraulic Tipper portfolio Start -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-manualhyd">
-            <img src="images/ManualHyd/IMP01580.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Manual Hydraulic Tipper</h4>
-
-              <a href="images/ManualHyd/IMP01580.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-manualhyd">
-            <img src="images/ManualHyd/IMP01581.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Manual Hydraulic Tipper</h4>
-
-              <a href="images/ManualHyd/IMP01581.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-manualhyd">
-            <img src="images/ManualHyd/IMP01585.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Manual Hydraulic Tipper</h4>
-
-              <a href="images/ManualHyd/IMP01585.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-manualhyd">
-            <img src="images/ManualHyd/IMP01587.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Manual Hydraulic Tipper</h4>
-
-              <a href="images/ManualHyd/IMP01587.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-manualhyd">
-            <img src="images/ManualHyd/IMP01590.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Manual Hydraulic Tipper</h4>
-
-              <a href="images/ManualHyd/IMP01590.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-manualhyd">
-            <img src="images/ManualHyd/IMP01600.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Manual Hydraulic Tipper</h4>
-
-              <a href="images/ManualHyd/IMP01600.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <!-- Manual Hydraulic Tipper portfolio End -->
-
-          <!-- Veg Cart portfolio start -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-vegcart">
-            <img src="images/VegetableCart/IMP01601.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Vegetable Cart</h4>
-
-              <a href="images/VegetableCart/IMP01601.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-vegcart">
-            <img src="images/VegetableCart/IMP01608.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Vegetable Cart</h4>
-
-              <a href="images/VegetableCart/IMP01608.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-vegcart">
-            <img src="images/VegetableCart/IMP01610.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Vegetable Cart</h4>
-
-              <a href="images/VegetableCart/IMP01610.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-vegcart">
-            <img src="images/VegetableCart/IMP01611.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Vegetable Cart</h4>
-
-              <a href="images/VegetableCart/IMP01611.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-vegcart">
-            <img src="images/VegetableCart/IMP01612.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Vegetable Cart</h4>
-
-              <a href="images/VegetableCart/IMP01612.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-vegcart">
-            <img src="images/VegetableCart/IMP01614.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Vegetable Cart</h4>
-
-              <a href="images/VegetableCart/IMP01614.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-vegcart">
-            <img src="images/VegetableCart/IMP01619.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Vegetable Cart</h4>
-
-              <a href="images/VegetableCart/IMP01619.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <!-- Veg Cart portfolio End -->
-
-          <!-- Closed Loader portfolio start -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-closedloader">
-            <img src="images/ClosedLoader/IMP01552.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Closed Loader</h4>
-
-              <a href="images/ClosedLoader/IMP01552.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-closedloader">
-            <img src="images/ClosedLoader/IMP01558.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Closed Loader</h4>
-
-              <a href="images/ClosedLoader/IMP01558.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-closedloader">
-            <img src="images/ClosedLoader/IMP01564.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Closed Loader</h4>
-
-              <a href="images/ClosedLoader/IMP01564.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-closedloader">
-            <img src="images/ClosedLoader/IMP01566.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Closed Loader</h4>
-
-              <a href="images/ClosedLoader/IMP01566.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-closedloader">
-            <img src="images/ClosedLoader/IMP01567.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Closed Loader</h4>
-
-              <a href="images/ClosedLoader/IMP01567.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-closedloader">
-            <img src="images/ClosedLoader/IMP01569.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Closed Loader</h4>
-
-              <a href="images/ClosedLoader/IMP01569.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-closedloader">
-            <img src="images/ClosedLoader/IMP01571.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Closed Loader</h4>
-
-              <a href="images/ClosedLoader/IMP01571.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <!-- Closed Loader portfolio End -->
-
-          <!-- Water Can Loader portfolio Start -->
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-watercan">
-            <img src="images/WaterCanLoader/IMP01549.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Water Can loader</h4>
-
-              <a href="images/WaterCanLoader/IMP01549.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-watercan">
-            <img src="images/WaterCanLoader/IMP01622.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Water Can loader</h4>
-
-              <a href="images/WaterCanLoader/IMP01622.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-watercan">
-            <img src="images/WaterCanLoader/IMP01624.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Water Can loader</h4>
-
-              <a href="images/WaterCanLoader/IMP01624.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-watercan">
-            <img src="images/WaterCanLoader/IMP01627.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Water Can loader</h4>
-
-              <a href="images/WaterCanLoader/IMP01627.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-watercan">
-            <img src="images/WaterCanLoader/IMP01628.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Water Can loader</h4>
-
-              <a href="images/WaterCanLoader/IMP01628.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-watercan">
-            <img src="images/WaterCanLoader/IMP01635.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Water Can loader</h4>
-
-              <a href="images/WaterCanLoader/IMP01635.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-watercan">
-            <img src="images/WaterCanLoader/IMP01637.png" class="img-fluid" alt="" style="width: 300px; height: 300px;">
-            <div class="portfolio-info">
-              <h4>Water Can loader</h4>
-
-              <a href="images/WaterCanLoader/IMP01637.png" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Food Cart"><i class="bx bx-plus"></i></a>
-              <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
-            </div>
-          </div>
-
-          <!-- Water Can Loader portfolio End -->
-
         </div>
       </div>
+
+      </div>
+
     </section><!-- End Portfolio Section -->
 
   </main><!-- End #main -->
@@ -936,6 +798,10 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+    baguetteBox.run('.tz-gallery');
+  </script>
 
 </body>
 
