@@ -15,8 +15,8 @@ $mail->IsSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 $mail->SMTPDebug = 2;
-$mail->Username = 'hashlineinfo@gmail.com'; 
-$mail->Password = 'myuvoiagfcamzskz'; 
+$mail->Username = ''; 
+$mail->Password = ''; 
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
